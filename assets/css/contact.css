@@ -195,17 +195,17 @@ a.active {
 .menu ul li a:hover {
   color: #ff5e15;
 }
-.helps {
+.help {
   margin: 0;
   padding: 0;
 }
-.helps li {
+.help li {
 }
-.helps li img {
+.help li img {
   width: 45px;
   margin-top: 4px;
 }
-.helps li h4 {
+.help li h4 {
   font-size: 20px;
   margin-left: 14px;
 }
@@ -214,7 +214,6 @@ a.active {
 /* main starts from here */
 main {
 }
-/* homepage-slider starts from here */
 .homepage-slider {
   position: relative;
 }
@@ -223,11 +222,11 @@ main {
 .homepage-slider .single-sliders {
   width: 100%;
   position: relative;
-  padding: 86px 35px;
+  padding: 143px 35px;
   overflow: hidden;
 }
 .slider-bg1 {
-  background: url("https://farihatulmaria.github.io/color/assets/img/about-homepage-bg.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/homepage-slider.png");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -260,8 +259,7 @@ main {
   margin-left: 180px;
 }
 .homepage-slider .single-sliders .slider-text p {
-  font-size: 14px;
-  opacity: 0.6;
+  font-size: 12px;
 }
 .homepage-btn {
   transition: all 0.5s;
@@ -288,344 +286,75 @@ main {
   display: none;
 }
 /* slick-slider css ends from here */
-/* homepage-slider ends from here */
 
-/* services starts from here */
+/* contact starts from here */
+.contact {
+  margin: 50px 0;
+}
 .services {
-  padding: 75px 0;
-  margin-top: -7px;
-}
-.services h4 {
-  color: #ff5e15;
-  font-size: 15px;
-  position: relative;
-  z-index: 2;
-}
-.services h4::before {
-  position: absolute;
-  top: -10px;
-  left: 46%;
-  width: 6%;
-  height: 206%;
-  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
-  content: "";
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-.services h4::after {
-  position: absolute;
-  top: -7px;
-  left: 45%;
-  width: 6%;
-  height: 204%;
-  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
-  background-repeat: no-repeat;
-  content: "";
-}
-.services h3 {
-}
-.service-txt {
-  padding: 0 320px;
-  font-size: 14px;
-}
-.service-box {
-  margin-top: 40px;
-}
-.service-info {
-  box-shadow: 0 0 26px #f5f5f5;
-  margin-bottom: 20px;
-  position: relative;
   background: #fff;
-  padding: 63px 0;
-  transition: all 1s;
+  color: #000;
+  padding: 34px 8px;
+  margin: 8px 0;
+  border: 1px solid #f5f5f5;
+  transition: all 0.3s;
 }
-.service-info:hover {
-  background: url("https://farihatulmaria.github.io/color/assets/img/service-bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 2;
-  color: #fff;
-}
-.service-info:hover::after {
-  opacity: 0.6;
-}
-.service-info::after {
-}
-.service-bg {
-}
-.service-info::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #030749;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-  content: "";
-  z-index: -1;
-  opacity: 0;
-  transition: all 1s;
-}
-
-.service-info:hover .service-btn {
-  color: #ff5e15;
-}
-.service-info:hover.service-info h5 {
-  color: #ff5e15;
+.services:hover {
+  box-shadow: 0 0 24px #f5f5f5;
 }
 .service-img {
-  position: relative;
-  z-index: 2;
+}
+.service-img::after {
 }
 .service-img::before {
-  left: 39%;
-  background: #ffe8de;
 }
-.service-img::before,
-.service-img::after {
-  position: absolute;
-  top: -10px;
-  width: 22%;
-  height: 93%;
-  content: "";
-  z-index: -1;
-  border-bottom-right-radius: 29px;
-  border-top-left-radius: 29px;
+.contact p {
 }
-.service-img::after {
-  left: 43%;
-  border: 1px solid #ffe8de;
-  border-radius: 0;
-  top: -17px;
+.contact h6 {
 }
-.service-info img {
-  width: 15%;
-  margin-bottom: 18px;
-}
-.service-info h5 {
-  transition: all 0.3s;
-}
-.service-info p {
-}
-.service-btn {
-  transition: all 0.3s;
-  font-weight: 700;
+.contact .email {
   position: relative;
+  color: #000;
 }
-.service-btn:hover::after {
-  width: 100%;
-  opacity: 1;
-}
-.service-btn::after {
+.contact .email::after {
   position: absolute;
-  bottom: -2px;
+  bottom: -5px;
   left: 0;
-  width: 0;
+  width: 0%;
   height: 2px;
-  background: #fff;
+  background: #000;
   content: "";
-  opacity: 0;
   transition: all 0.5s;
 }
-/* services ends from here */
-
-/* help starts from here */
-.help {
-  position: relative;
-  margin-bottom: 238px;
+.contact .email:hover::after {
+  width: 100%;
 }
-.help-txt-bg {
-  position: absolute;
-  top: 0;
-  right: 0;
+.contact-form {
+}
+.contact-form h2 {
+}
+.contact-form input,
+textarea {
   background: #f5f5f5;
+  color: #000;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 7px 0;
+  padding: 17px 18px;
+  border-radius: 3px;
+}
+.contact-form textarea {
+}
+.contact-form input[type="submit"] {
+  background: #ff5e15;
   width: 30%;
-  height: 564px;
-  content: "";
-  z-index: -1;
-}
-.help::before {
-  position: absolute;
-  width: 70%;
-  height: 135%;
-  top: 0;
-  left: 0;
-  background: url("https://farihatulmaria.github.io/color/assets/img/help-bg.png");
-  background-position: center;
-  background-size: cover;
-  z-index: -1;
-  content: "";
-}
-.help::after {
-  position: absolute;
-  width: 70%;
-  height: 135%;
-  top: 0;
-  left: 0;
-  background: linear-gradient(90deg, transparent, #030749);
-  z-index: -1;
-  content: "";
-}
-.help-txt {
-  width: 43%;
-  margin-left: 601px;
-  margin-top: 65px;
-  background: #fff;
-  padding: 49px 54px;
-}
-.help-txt h4 {
-  position: relative;
-  font-size: 20px;
-  font-weight: 400;
-}
-.help-txt h4::before {
-  position: absolute;
-  bottom: 6px;
-  right: 34px;
-  background: #ff5e15;
-  width: 68px;
-  height: 4px;
-  border-radius: 32px;
-  content: "";
-}
-.help-txt h2 {
-}
-.help-txt p {
-  color: #ff5e15;
-  font-size: 18px;
-}
-.help-txt span {
-  margin-left: 54px;
-}
-.help-txt p img {
-  margin-right: 9px;
-  width: 33px;
-}
-/* help ends from here */
-
-/* team starts from here */
-.team {
-  padding: 50px 0;
-}
-.team-title {
-}
-.team-title h4 {
-  position: relative;
-  z-index: 2;
-  color: #ff5e15;
-  font-size: 15px;
-}
-.team-title h4::before {
-  position: absolute;
-  top: -10px;
-  left: 46%;
-  width: 6%;
-  height: 206%;
-  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
-  content: "";
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-.team-title h4::after {
-  position: absolute;
-  top: -7px;
-  left: 45%;
-  width: 6%;
-  height: 204%;
-  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
-  background-repeat: no-repeat;
-  content: "";
-}
-.team-title h2 {
-}
-.team-title p {
-  padding: 0 296px;
-}
-.single-members {
-  width: 100%;
-  height: 350px;
-  background: url("https://farihatulmaria.github.io/color/assets/img/team-member.png");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 2;
-  overflow: hidden;
-}
-.single-members::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #030749;
-  opacity: 0;
-  z-index: -1;
-  transition: all 0.5s;
-  content: "";
-}
-.single-members:hover::after {
-  opacity: 0.8;
-}
-.single-members:hover .team-info {
-  opacity: 1;
-  bottom: 30px;
-}
-
-.team-info {
-  position: absolute;
-  bottom: -100px;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0;
-  transition: all 0.5s;
-}
-.team-info h4 {
   color: #fff;
+  margin: 8px 0;
+  border-radius: 6px;
+  font-weight: 700;
 }
-.team-info span {
-  color: #ff5e15;
-}
-.social-links {
-  margin-top: 30px;
-}
-.social-links a {
-  background: #8789a8;
-  color: #fff;
-  padding: 16px 17px;
-  border-radius: 50%;
-  margin: 0 -28px;
-  transition: 0.3s;
-}
-.social-links a:hover {
-  background: #ff5e15;
-}
-.single-members:hover .team-info .social-links a {
-  margin: 0 0;
-}
-.social-links a svg {
-  transition: 0.3s;
-}
-.social-links a:hover svg {
-  color: #fff;
-}
-/* team ends from here */
-
-/* brands starts from here */
-.brands {
-  padding-top: 2px;
-  padding-bottom: 187px;
-}
-.brands-img {
-  background: url("https://farihatulmaria.github.io/color/assets/img/brands.png");
-  background-position: center;
-  background-size: cover;
-  height: 75px;
-}
-/* brands ends from here */
-
+/* contact ends from here */
 /* main ends from here */
 
 /* footer starts from here */
@@ -684,9 +413,26 @@ footer {
 }
 .footer-about .social-links {
 }
-.footer-about .social-links a {
+.social-links {
+  margin-top: 30px;
+}
+.social-links a {
+  background: #8789a8;
+  color: #fff;
+  padding: 16px 17px;
+  border-radius: 50%;
   margin: 0 0 !important;
   margin-right: 7px !important;
+  transition: 0.3s;
+}
+.social-links a:hover {
+  background: #ff5e15;
+}
+.social-links a svg {
+  transition: 0.3s;
+}
+.social-links a:hover svg {
+  color: #fff;
 }
 .footer-service {
 }

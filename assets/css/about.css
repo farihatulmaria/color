@@ -227,7 +227,7 @@ main {
   overflow: hidden;
 }
 .slider-bg1 {
-  background: url("/assets/img/about-homepage-bg.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/about-homepage-bg.png");
   background-position: center;
   background-size: cover;
   height: 100%;
