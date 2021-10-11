@@ -1141,7 +1141,8 @@ main {
 /* blog ends from here */
 /* brands starts from here */
 .brands {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 .brands-img {
   background: url("/assets/img/brands.png");
@@ -1152,3 +1153,120 @@ main {
 /* brands ends from here */
 
 /* main ends from here */
+
+/* footer starts from here */
+footer {
+  background: url("/assets/img/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 65px 0;
+  padding-top: 200px;
+  position: relative;
+}
+/* newsletter starts from here */
+.newsletter {
+  background: #ff5e15;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  padding: 25px 46px;
+  position: absolute;
+  left: 117px;
+  top: -53px;
+}
+.newsletter h2 {
+}
+.newsletter p {
+}
+.newsletter input {
+  margin-top: 27px;
+  padding: 6px 10px;
+  outline: none;
+  border: none;
+  margin-left: 81px;
+}
+.newsletter .submit-btn {
+  margin-top: -3px;
+  color: #fff;
+  background: #030749;
+  margin-left: -5px;
+  border-radius: 0px !important;
+}
+.newsletter .submit-btn svg {
+}
+/* newsletter ends from here */
+
+.footer-about {
+}
+.footer-about img {
+  width: 57%;
+}
+.footer-about p {
+  color: #c4c5d5;
+  font-size: 14px;
+  margin: 20px 0;
+  font-weight: 300;
+}
+.footer-about .social-links {
+}
+.footer-about .social-links a {
+  margin: 0 0 !important;
+  margin-right: 7px !important;
+}
+.footer-service {
+}
+.footer-service h3 {
+}
+.footer-service ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-service ul li {
+  margin: 8px 0;
+}
+.footer-service ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+.footer-service ul li:hover a {
+  padding-left: 10px;
+  color: #ff5e15;
+}
+.footer-contact {
+}
+.footer-contact h3 {
+}
+.footer-contact p {
+}
+.footer-contact p svg {
+  margin-right: 5px;
+}
+.footer-blogs {
+}
+.footer-blogs h3 {
+}
+.footer-blogs ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.footer-blogs ul li {
+}
+.post-img img {
+  width: 125%;
+  height: 12vh;
+  margin-top: -9px;
+}
+.footer-blogs h4 {
+  font-size: 18px;
+}
+.footer-blogs span {
+  color: #ff5e15;
+}
+footer .container-fluid {
+  width: 100%;
+  padding-right: 35px;
+  padding-left: 42px;
+}
+/* footer ends from here */
