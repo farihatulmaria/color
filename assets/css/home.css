@@ -226,7 +226,7 @@ main {
   overflow: hidden;
 }
 .slider-bg1 {
-  background: url("/assets/img/homepage-slider.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/homepage-slider.png");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -351,7 +351,7 @@ main {
   left: 13px;
   width: 131%;
   height: 109%;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: 0;
@@ -362,7 +362,7 @@ main {
   left: 10px;
   width: 131%;
   height: 109%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   content: "";
   background-repeat: no-repeat;
   z-index: 1;
@@ -401,7 +401,7 @@ main {
   right: 88px;
   width: 10%;
   height: 10%;
-  background: url("/assets/img/Group.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Group.png");
   content: "";
   z-index: -1;
   background-repeat: no-repeat;
@@ -440,7 +440,7 @@ main {
   left: -12px;
   width: 6%;
   height: 204%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   background-repeat: no-repeat;
   content: "";
 }
@@ -450,7 +450,7 @@ main {
   left: -5px;
   width: 6%;
   height: 206%;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
@@ -473,7 +473,7 @@ main {
 .our-progress {
   width: 100%;
   height: 31vh;
-  background: url("/assets/img/progress.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/progress.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -510,7 +510,7 @@ main {
   left: 46%;
   width: 6%;
   height: 206%;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
@@ -521,7 +521,7 @@ main {
   left: 45%;
   width: 6%;
   height: 204%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   background-repeat: no-repeat;
   content: "";
 }
@@ -542,7 +542,7 @@ main {
   transition: all 1s;
 }
 .service-info:hover {
-  background: url("/assets/img/service-bg.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/service-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -635,7 +635,7 @@ main {
 /* project starts from here */
 .project {
   padding: 80px 0;
-  background: url("/assets/img/project-bg.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/project-bg.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -666,7 +666,7 @@ main {
   left: -1%;
   width: 39px;
   height: 41px;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
@@ -677,7 +677,7 @@ main {
   left: -10px;
   width: 20px;
   height: 204%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   background-repeat: no-repeat;
   content: "";
 }
@@ -707,7 +707,7 @@ main {
   margin-top: 50px;
 }
 .single-project {
-  background: url("/assets/img/project.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/project.png");
   background-position: center;
   background-size: cover;
   height: 330px;
@@ -806,7 +806,7 @@ main {
   left: 46%;
   width: 6%;
   height: 206%;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
@@ -817,7 +817,7 @@ main {
   left: 45%;
   width: 6%;
   height: 204%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   background-repeat: no-repeat;
   content: "";
 }
@@ -829,7 +829,7 @@ main {
 .single-members {
   width: 100%;
   height: 350px;
-  background: url("/assets/img/team-member.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/team-member.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -905,7 +905,7 @@ main {
   height: 135%;
   top: 0;
   left: 0;
-  background: url("/assets/img/help-bg.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/help-bg.png");
   background-position: center;
   background-size: cover;
   z-index: -1;
@@ -978,7 +978,7 @@ main {
   left: 46%;
   width: 39px;
   height: 41px;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
@@ -989,7 +989,7 @@ main {
   left: 45%;
   width: 20px;
   height: 204%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   background-repeat: no-repeat;
   content: "";
 }
@@ -1017,7 +1017,7 @@ main {
   color: #fff;
 }
 .commenter {
-  background: url("/assets/img/commenter.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/commenter.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -1073,7 +1073,7 @@ main {
   left: 47%;
   width: 39px;
   height: 41px;
-  background: url("/assets/img/Rectangle 12.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 12.png");
   content: "";
   background-repeat: no-repeat;
   z-index: -1;
@@ -1084,7 +1084,7 @@ main {
   left: 46%;
   width: 20px;
   height: 204%;
-  background: url("/assets/img/Rectangle 13.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/Rectangle 13.png");
   background-repeat: no-repeat;
   content: "";
 }
@@ -1106,7 +1106,7 @@ main {
   color: #ff5e15;
 }
 .blog-head {
-  background: url("/assets/img/blog.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/blog.png");
   background-position: center;
   background-size: cover;
   height: 216px;
@@ -1145,7 +1145,7 @@ main {
   padding-bottom: 150px;
 }
 .brands-img {
-  background: url("/assets/img/brands.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/brands.png");
   background-position: center;
   background-size: cover;
   height: 75px;
@@ -1156,7 +1156,7 @@ main {
 
 /* footer starts from here */
 footer {
-  background: url("/assets/img/footer-bg.png");
+  background: url("https://farihatulmaria.github.io/color/assets/img/footer-bg.png");
   background-position: center;
   background-size: cover;
   color: #fff;
