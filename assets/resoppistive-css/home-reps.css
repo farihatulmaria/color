@@ -1,0 +1,169 @@
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 880px) {
+  .top-banner,
+  .featurs,
+  .main-meun,
+  .head-info {
+    display: none;
+    visibility: hidden;
+  }
+  .offcanvas-menu {
+    width: 38%;
+  }
+  .logo img {
+    width: 107px;
+  }
+  .offcanvas-menu.show-menu {
+    right: 145px;
+  }
+  .offcanvas-menu {
+    width: 26%;
+  }
+  .menu-trigger {
+    top: -63px;
+    right: 43px;
+  }
+  .head-offer-btn {
+    margin-right: 13px;
+    margin-left: 119px;
+  }
+
+  .homepage-slider .single-sliders .slider-text {
+    margin-left: 0;
+  }
+  .homepage-btn {
+    margin-right: 5px;
+    padding: 10px 16px;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .about h5 {
+    margin-top: 119px;
+  }
+  .about-info h3 {
+    font-size: 35px;
+  }
+  .our-progress {
+    height: 15vh;
+  }
+  .service-txt,
+  .team-title p,
+  .Testimonial-txt p,
+  .blog-txt p {
+    padding: 0 0;
+  }
+
+  .single-project {
+    height: 258px;
+  }
+  .project-hover h3 {
+    font-size: 17px;
+  }
+  .help::before,
+  .help::after {
+    height: 115%;
+  }
+  .help-txt {
+    width: 58%;
+    margin-left: 228px;
+    margin-top: 39px;
+    padding: 40px 19px;
+  }
+  .comment-txt h3 {
+    font-size: 11px;
+    margin-bottom: -1px;
+  }
+  .comment-txt span {
+    color: #ff5e15;
+    font-size: 11px;
+  }
+  .comment-txt p {
+    font-size: 11px;
+  }
+  .brands-img {
+    height: 52px;
+  }
+  .newsletter {
+    width: 73%;
+    padding: 22px 0;
+  }
+  .newsletter input {
+    margin-left: 22px;
+  }
+  .post-img img {
+    width: 100%;
+    height: 7vh;
+    margin-top: -9px;
+  }
+  .footer-blogs h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .offcanvas-menu {
+    width: 53%;
+  }
+  .offcanvas-menu.show-menu {
+    right: 65px;
+  }
+  .head-offer-btn,
+  .head-search,
+  .our-progress,
+  .project-hover,
+  .brands {
+    display: none;
+  }
+  .homepage-slider .single-sliders {
+    padding: 69px 32px;
+  }
+  .about {
+    margin: 100px 0;
+  }
+  .about-info h3 {
+    font-size: 16px;
+  }
+  .project-btn {
+    font-size: 11px;
+    top: 10%;
+    right: 6%;
+  }
+  .single-project {
+    height: 162px;
+  }
+  .help::before,
+  .help::after {
+    height: 117%;
+  }
+  .help-txt {
+    width: 71%;
+    margin-left: 97px;
+    padding: 19px 6px;
+  }
+  .blog {
+    padding: 81px 0;
+  }
+  .newsletter {
+    left: 57px;
+  }
+  footer {
+    padding-top: 235px;
+  }
+  .post-img img {
+    margin-top: -21px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
