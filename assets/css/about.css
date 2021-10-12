@@ -594,6 +594,7 @@ main {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  margin: 11px 0;
 }
 .single-members::after {
   position: absolute;
@@ -898,7 +899,12 @@ footer {
 .newsletter .submit-btn svg {
 }
 /* newsletter ends from here */
-
+.footer-about,
+.footer-service,
+.footer-contact,
+.footer-blogs {
+  margin-bottom: 40px;
+}
 .footer-about {
 }
 .footer-about img {
