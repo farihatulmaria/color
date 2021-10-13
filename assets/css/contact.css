@@ -416,8 +416,31 @@ footer {
 }
 .newsletter .submit-btn svg {
 }
+.social-links a {
+  background: #8789a8;
+  margin: 0 0;
+  transition: 0.3s;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+.social-links a svg {
+  transition: 0.3s;
+  font-size: 22px;
+}
+.social-links a:hover {
+  background: #ff5e15;
+}
 /* newsletter ends from here */
-
+.footer-about,
+.footer-service,
+.footer-contact,
+.footer-blogs {
+  margin-bottom: 40px;
+}
 .footer-about {
 }
 .footer-about img {
