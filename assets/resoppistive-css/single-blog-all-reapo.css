@@ -41,51 +41,16 @@
   .slick-next {
     display: none !important;
   }
-  .about h5 {
-    margin-top: 119px;
+  .add-comment input[type="submit"] {
+    width: 24%;
   }
-  .about-info h3 {
-    font-size: 35px;
+  .add-comment {
+    margin-bottom: 61px;
   }
-  .about-info {
-    height: 50%;
-  }
-  .our-progress {
-    height: 15vh;
-  }
-  .service-txt,
-  .team-title p,
-  .Testimonial-txt p,
   .blog-txt p {
     padding: 0 0;
   }
-  .single-project {
-    height: 130px !important;
-  }
-  .project-hover h3 {
-    font-size: 17px;
-  }
-  .help::before,
-  .help::after {
-    height: 115%;
-  }
-  .help-txt {
-    width: 58%;
-    margin-left: 228px;
-    margin-top: 39px;
-    padding: 40px 19px;
-  }
-  .comment-txt h3 {
-    font-size: 11px;
-    margin-bottom: -1px;
-  }
-  .comment-txt span {
-    color: #ff5e15;
-    font-size: 11px;
-  }
-  .comment-txt p {
-    font-size: 11px;
-  }
+
   .brands-img {
     height: 52px;
   }
@@ -119,39 +84,29 @@
   }
   .head-offer-btn,
   .head-search,
-  .our-progress,
-  .project-hover,
   .brands {
     display: none;
   }
   .homepage-slider .single-sliders {
     padding: 69px 32px;
   }
-  .about {
-    margin: 100px 0;
-  }
-  .about-info h3 {
-    font-size: 16px;
-  }
-  .project-btn {
-    font-size: 11px;
-    top: 10%;
-    right: 6%;
-  }
-  .single-project {
-    height: 162px;
-  }
-  .help::before,
-  .help::after {
-    height: 117%;
-  }
-  .help-txt {
-    width: 71%;
-    margin-left: 97px;
-    padding: 19px 6px;
-  }
   .blog {
     padding: 81px 0;
+  }
+  .add-comment input[type="submit"] {
+    width: 42%;
+  }
+  .comments ul:nth-child(3),
+  .comments ul:nth-child(5),
+  .comments ul:nth-child(7),
+  .comments ul:nth-child(9),
+  .comments ul:nth-child(11),
+  .comments ul:nth-child(13),
+  .comments ul:nth-child(15),
+  .comments ul:nth-child(17),
+  .comments ul:nth-child(19),
+  .comments ul:nth-child(21) {
+    margin-left: 0;
   }
   .newsletter {
     left: 43px;

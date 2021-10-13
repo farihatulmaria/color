@@ -78,6 +78,9 @@
     margin-top: 39px;
     padding: 40px 19px;
   }
+  .help-txt-bg {
+    height: 420px;
+  }
   .comment-txt h3 {
     font-size: 11px;
     margin-bottom: -1px;
@@ -99,6 +102,9 @@
   .newsletter input {
     margin-left: 22px;
   }
+  .brands-img {
+    height: 52px;
+  }
   .post-img img {
     width: 100%;
     height: 7vh;
@@ -115,10 +121,10 @@
 
 @media screen and (max-width: 480px) {
   .offcanvas-menu {
-    width: 53%;
+    width: 60%;
   }
   .offcanvas-menu.show-menu {
-    right: 65px;
+    right: 13px;
   }
   .head-offer-btn,
   .head-search,
@@ -153,6 +159,9 @@
     margin-left: 97px;
     padding: 19px 6px;
   }
+  .help-txt-bg {
+    height: 404px;
+  }
   .blog {
     padding: 81px 0;
   }
@@ -163,6 +172,9 @@
   }
   .newsletter input {
     margin-left: 0;
+  }
+  .help-txt h4::before {
+    opacity: 0;
   }
   footer {
     padding-top: 235px;

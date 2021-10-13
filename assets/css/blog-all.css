@@ -58,6 +58,18 @@
 .comments {
   margin: 50px 0;
 }
+.comments ul:nth-child(3),
+.comments ul:nth-child(5),
+.comments ul:nth-child(7),
+.comments ul:nth-child(9),
+.comments ul:nth-child(11),
+.comments ul:nth-child(13),
+.comments ul:nth-child(15),
+.comments ul:nth-child(17),
+.comments ul:nth-child(19),
+.comments ul:nth-child(21) {
+  margin-left: 71px;
+}
 .comments h3 {
   font-size: 20px;
 }
@@ -226,16 +238,24 @@ textarea {
 }
 .social-links {
 }
-.social-links a {
-  border: 1px solid #999;
-  color: #999;
-  padding: 10px 13px;
-  border-radius: 51%;
-  margin: 0 3px;
-  transition: 0.5s;
-}
 .social-links a:hover {
   background: #ff5e15;
-  border: 1px solid transparent;
   color: #fff;
+}
+.social-links a {
+  background: #8789a8;
+  margin: 0 0;
+  transition: 0.3s;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.social-links a svg {
+  transition: 0.3s;
+  margin-top: 14px;
+  font-size: 22px;
 }

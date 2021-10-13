@@ -6,7 +6,6 @@
 }
 @media screen and (max-width: 880px) {
   .top-banner,
-  .featurs,
   .main-meun,
   .head-info {
     display: none;
@@ -41,50 +40,8 @@
   .slick-next {
     display: none !important;
   }
-  .about h5 {
-    margin-top: 119px;
-  }
-  .about-info h3 {
-    font-size: 35px;
-  }
-  .about-info {
-    height: 50%;
-  }
-  .our-progress {
-    height: 15vh;
-  }
-  .service-txt,
-  .team-title p,
-  .Testimonial-txt p,
-  .blog-txt p {
-    padding: 0 0;
-  }
   .single-project {
-    height: 130px !important;
-  }
-  .project-hover h3 {
-    font-size: 17px;
-  }
-  .help::before,
-  .help::after {
-    height: 115%;
-  }
-  .help-txt {
-    width: 58%;
-    margin-left: 228px;
-    margin-top: 39px;
-    padding: 40px 19px;
-  }
-  .comment-txt h3 {
-    font-size: 11px;
-    margin-bottom: -1px;
-  }
-  .comment-txt span {
-    color: #ff5e15;
-    font-size: 11px;
-  }
-  .comment-txt p {
-    font-size: 11px;
+    height: 289px;
   }
   .brands-img {
     height: 52px;
@@ -112,10 +69,10 @@
 
 @media screen and (max-width: 480px) {
   .offcanvas-menu {
-    width: 63%;
+    width: 73%;
   }
   .offcanvas-menu.show-menu {
-    right: 13px;
+    right: 0px;
   }
   .head-offer-btn,
   .head-search,
@@ -127,48 +84,27 @@
   .homepage-slider .single-sliders {
     padding: 69px 32px;
   }
-  .about {
-    margin: 100px 0;
-  }
-  .about-info h3 {
-    font-size: 16px;
-  }
-  .project-btn {
-    font-size: 11px;
-    top: 10%;
-    right: 6%;
-  }
+
   .single-project {
-    height: 162px;
-  }
-  .help::before,
-  .help::after {
-    height: 117%;
-  }
-  .help-txt {
-    width: 71%;
-    margin-left: 97px;
-    padding: 19px 6px;
-  }
-  .blog {
-    padding: 81px 0;
+    height: 153px;
   }
   .newsletter {
-    left: 43px;
-    width: 80%;
-    padding: 22px 0;
+    left: 27px;
+    width: 84%;
+    padding: 18px 0;
   }
+
   .newsletter input {
     margin-left: 0;
+  }
+  .footer-blogs h4 {
+    font-size: 14px;
   }
   footer {
     padding-top: 235px;
   }
   .post-img img {
     margin-top: -21px;
-  }
-  .footer-blogs h4 {
-    font-size: 14px;
   }
 }
 

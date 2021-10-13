@@ -23,6 +23,25 @@ body {
 }
 .social-icons a svg {
 }
+.social-links a {
+  background: #8789a8;
+  margin: 0 -28px;
+  transition: 0.3s;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+.social-links a svg {
+  transition: 0.3s;
+  margin-top: 14px;
+  font-size: 22px;
+}
+.social-links a:hover {
+  background: #ff5e15;
+}
 .eng {
   position: relative;
 }
@@ -427,7 +446,12 @@ footer {
 .newsletter .submit-btn svg {
 }
 /* newsletter ends from here */
-
+.footer-about,
+.footer-service,
+.footer-contact,
+.footer-blogs {
+  margin-bottom: 40px;
+}
 .footer-about {
 }
 .footer-about img {
