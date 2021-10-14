@@ -29,6 +29,7 @@
       rel="stylesheet"
       href="assets/third-party/slick slider/css/slick-theme.css"
     />
+    <link rel="stylesheet" href="assets/third-party/wow-js/css/animate.css" />
     <!-- main-css -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/blog.css" />
@@ -576,9 +577,22 @@
     <script src="https://github.com/bartholomej/material-scrolltop.git"></script>
     <script src="assets/third-party/jquery-circle-progress/js/circle-progress.js"></script>
     <script src="assets/third-party/slick slider/js/slick.js"></script>
-    <script src="assets/third-party/skrollr/js/skrollr.min.js"></script>
-    <script src="assets/third-party/masonry/js/masonry.pkgd.min.js"></script>
-    <script src="assets/third-party/Magnific-Popup/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/third-party/wow-js/js/wow.min.js"></script>
+    <script>
+      var wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: true,
+        delay: 1000,
+        duration: 1000,
+        live: true,
+        callback: function (box) {},
+        scrollContainer: null,
+        resetAnimation: true,
+      });
+      wow.init();
+    </script>
     <script src="assets/third-party/fontawesome-free-5.15.3/js/all.min.js"></script>
     <script src="assets/js/home.js"></script>
   </body>

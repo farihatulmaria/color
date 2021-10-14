@@ -33,17 +33,37 @@
       autoplaySpeed: 2000,
       dots: true,
     });
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-        $(".scrollToTop").fadeIn();
-      } else {
-        $(".scrollToTop").fadeOut();
-      }
-    });
+  });
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      $("#scroll-to-top").fadeIn("slow");
+    } else {
+      $("#scroll-to-top").fadeOut("slow");
+    }
 
-    $(".scrollToTop").click(function () {
-      $("html, body").animate({ scrollTop: 0 }, 800);
-      return false;
-    });
+    if ($(this).scrollTop() > $(document).height() - screen.height) {
+      $("#scroll-to-bottom").fadeOut("slow");
+    } else {
+      $("#scroll-to-bottom").fadeIn("slow");
+    }
+  });
+
+  $(".scroll-to-top").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: 0,
+      },
+      600
+    );
+    return false;
+  });
+  $(".scroll-to-bottom").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: $(document).height(),
+      },
+      600
+    );
+    return false;
   });
 })(jQuery);
