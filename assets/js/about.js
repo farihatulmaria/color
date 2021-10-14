@@ -9,11 +9,21 @@
       $(".offcanvas-menu").removeClass("show-menu");
       $(".offcanvas-shade").removeClass("shade-active");
     });
+    $(".main-menu").on("scroll", function () {
+      $(".main-meun").addClass("sticky");
+    });
     $(".sliders").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
+    });
+    $(".project-slider").slick({
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
     });
     $(".comment-slider").slick({
       arrows: false,
