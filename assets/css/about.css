@@ -990,3 +990,44 @@ footer .container-fluid {
   margin-top: 17px;
 }
 /* copy-right ends from here */
+/* scroll-to-top and scroll-to-bottom css */
+.scroll-to-top,
+.scroll-to-bottom {
+  padding: 2px;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 9999;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  border: 3px solid #ff5e15;
+  border-radius: 50%;
+  padding-top: 11px;
+}
+.scroll-to-top {
+  bottom: 20px;
+  right: 66px;
+}
+.scroll-to-bottom {
+  bottom: 20px;
+  right: 30px;
+}
+
+.stab-left .scroll-to-top {
+  right: inherit;
+  left: 30px;
+}
+.stab-left .scroll-to-bottom {
+  right: inherit;
+  left: 66px;
+}
+.stab-center .scroll-to-top {
+  right: 50%;
+  margin-right: 5px;
+}
+.stab-center .scroll-to-bottom {
+  right: 50%;
+  margin-right: -30px;
+}
