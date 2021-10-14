@@ -195,17 +195,17 @@ a.active {
 .menu ul li a:hover {
   color: #ff5e15;
 }
-.help {
+.helps {
   margin: 0;
   padding: 0;
 }
-.help li {
+.helps li {
 }
-.help li img {
+.helps li img {
   width: 45px;
   margin-top: 4px;
 }
-.help li h4 {
+.helps li h4 {
   font-size: 20px;
   margin-left: 14px;
 }

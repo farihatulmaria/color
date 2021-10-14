@@ -29,6 +29,8 @@
       rel="stylesheet"
       href="assets/third-party/slick slider/css/slick-theme.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- main-css -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/home.css" />
@@ -37,13 +39,17 @@
   </head>
   <body>
     <!-- top-banner starts from here  -->
-    <div class="top-banner">
+    <div class="top-banner wow bounceInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <p>Wlcome to our BildLab construction Company</p>
           </div>
-          <div class="col-lg-6 text-end">
+          <div
+            class="col-lg-6 text-end"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+          >
             <div class="social-icons">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
@@ -129,7 +135,7 @@
     </header>
     <!-- header ends from here  -->
 
-    <!-- main-menu starts from here  -->
+    <!-- main-menu starts  from here  -->
     <div class="main-meun">
       <div class="container">
         <div class="row">
@@ -147,7 +153,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <ul class="help">
+            <ul class="helps">
               <li>
                 <img src="assets/img/help.png" alt="" />
               </li>
@@ -1110,12 +1116,12 @@
     <!-- scripts -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/third-party/bootstrap-5.0.2/js/bootstrap.min.js"></script>
-    <script src="https://github.com/bartholomej/material-scrolltop.git"></script>
     <script src="assets/third-party/jquery-circle-progress/js/circle-progress.js"></script>
     <script src="assets/third-party/slick slider/js/slick.js"></script>
-    <script src="assets/third-party/skrollr/js/skrollr.min.js"></script>
-    <script src="assets/third-party/masonry/js/masonry.pkgd.min.js"></script>
-    <script src="assets/third-party/Magnific-Popup/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/third-party/wow js/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="assets/third-party/fontawesome-free-5.15.3/js/all.min.js"></script>
     <script src="assets/js/home.js"></script>
   </body>
